@@ -1,7 +1,11 @@
-# Assignment 1 - Implement a Working Solver for the Puzzle Game Sokoban
+# Assignment 2 - Constraint Satisfaction
 
-The assignment handout is 'A1.pdf' above.
+The assignment handout is 'A2.pdf' above.
+
+There are two parts to this assignment:
+* The implementation of two constraint propagators – a Forward Checking constraint propagator, and a Generalized Arc Consistence (GAC) constraint propagator.
+* The encoding of two different CSP models to solve the logic puzzle, “Tenner Grid”, as described in 'A2.pdf'. In one model I use binary not-equal constraints for row constraints, while in the other model I use n-ary all-different constraints for them.
 
 To run the test scripts, cd into the assignment folder. 
-* Type 'python3 test\_script.py' to run the first test script testing Manhattan Distance, Anytime Greedy Best-First Search, Anytime Weighted A\* Search and the Evaluation Function. Note that the benchmark/expected solution solves 10/10 for Manhattan Distance, 6/10 for Anytime GBFS, 6/10 for Anytime Weighted A\* and 3/3 for the Evaluation Function, given an allotted time of 8 seconds for each test. I solve 10/10 for Manhattan Distance, 9/10 for Anytime GBFS, 9/10 for Anytime Weighted A\* and 3/3 for the Evaluation Function, given an allotted time of 8 seconds for each test.
-* Type 'python3 test\_script\_alternate.py' to run the second test script testing the Alternate Heuristic. Note that the benchmark/expected solution solves 14/40 for the Alternate Heuristic, given an allotted time of 8 seconds for each test. I solve 16/40 for the Alternate Heuristic, given an allotted time of 8 seconds for each test.
+* Type 'python3 csp\_sample\_run.py' to test the constraint satisfaction problems.
+* Type 'python3 tenner\_sample\_run.py' to test the Tenner Grid Solver.
