@@ -1,0 +1,68 @@
+Solving board:
+[-1, 0, 1, -1, 9, -1, -1, 5, -1, 2]
+[-1, 7, -1, -1, -1, 6, 1, -1, -1, -1]
+[-1, -1, -1, 8, -1, -1, -1, -1, -1, 9]
+[6, -1, 4, -1, -1, -1, -1, 7, -1, -1]
+[-1, 1, -1, 3, -1, -1, 5, 8, 2, -1]
+Using Model 1
+=======================================================
+FC
+CSP TENNER-M1 solved. CPU Time used = 1.028916
+CSP TENNER-M1  Assignments = 
+Var--V1,1  =  3     Var--V1,2  =  0     Var--V1,3  =  1     Var--V1,4  =  7     Var--V1,5  =  9     Var--V1,6  =  4     Var--V1,7  =  8     Var--V1,8  =  5     Var--V1,9  =  6     Var--V1,10  =  2     Var--V2,1  =  9     Var--V2,2  =  7     Var--V2,3  =  5     Var--V2,4  =  3     Var--V2,5  =  0     Var--V2,6  =  6     Var--V2,7  =  1     Var--V2,8  =  2     Var--V2,9  =  8     Var--V2,10  =  4     Var--V3,1  =  2     Var--V3,2  =  3     Var--V3,3  =  1     Var--V3,4  =  8     Var--V3,5  =  7     Var--V3,6  =  5     Var--V3,7  =  4     Var--V3,8  =  6     Var--V3,9  =  0     Var--V3,10  =  9     Var--V4,1  =  6     Var--V4,2  =  5     Var--V4,3  =  4     Var--V4,4  =  0     Var--V4,5  =  2     Var--V4,6  =  9     Var--V4,7  =  3     Var--V4,8  =  7     Var--V4,9  =  1     Var--V4,10  =  8     Var--V5,1  =  9     Var--V5,2  =  1     Var--V5,3  =  7     Var--V5,4  =  3     Var--V5,5  =  6     Var--V5,6  =  0     Var--V5,7  =  5     Var--V5,8  =  8     Var--V5,9  =  2     Var--V5,10  =  4     
+bt_search finished
+Search made 10138 variable assignments and pruned 50315 variable values
+Solution
+[3, 0, 1, 7, 9, 4, 8, 5, 6, 2]
+[9, 7, 5, 3, 0, 6, 1, 2, 8, 4]
+[2, 3, 1, 8, 7, 5, 4, 6, 0, 9]
+[6, 5, 4, 0, 2, 9, 3, 7, 1, 8]
+[9, 1, 7, 3, 6, 0, 5, 8, 2, 4]
+Using Model 2
+=======================================================
+GAC
+CSP TENNER-M2 solved. CPU Time used = 9.110081999999998
+CSP TENNER-M2  Assignments = 
+Var--V1,1  =  3     Var--V1,2  =  0     Var--V1,3  =  1     Var--V1,4  =  7     Var--V1,5  =  9     Var--V1,6  =  4     Var--V1,7  =  8     Var--V1,8  =  5     Var--V1,9  =  6     Var--V1,10  =  2     Var--V2,1  =  9     Var--V2,2  =  7     Var--V2,3  =  5     Var--V2,4  =  3     Var--V2,5  =  0     Var--V2,6  =  6     Var--V2,7  =  1     Var--V2,8  =  2     Var--V2,9  =  8     Var--V2,10  =  4     Var--V3,1  =  2     Var--V3,2  =  3     Var--V3,3  =  1     Var--V3,4  =  8     Var--V3,5  =  7     Var--V3,6  =  5     Var--V3,7  =  4     Var--V3,8  =  6     Var--V3,9  =  0     Var--V3,10  =  9     Var--V4,1  =  6     Var--V4,2  =  5     Var--V4,3  =  4     Var--V4,4  =  0     Var--V4,5  =  2     Var--V4,6  =  9     Var--V4,7  =  3     Var--V4,8  =  7     Var--V4,9  =  1     Var--V4,10  =  8     Var--V5,1  =  9     Var--V5,2  =  1     Var--V5,3  =  7     Var--V5,4  =  3     Var--V5,5  =  6     Var--V5,6  =  0     Var--V5,7  =  5     Var--V5,8  =  8     Var--V5,9  =  2     Var--V5,10  =  4     
+bt_search finished
+Search made 61 variable assignments and pruned 581 variable values
+Solution
+[3, 0, 1, 7, 9, 4, 8, 5, 6, 2]
+[9, 7, 5, 3, 0, 6, 1, 2, 8, 4]
+[2, 3, 1, 8, 7, 5, 4, 6, 0, 9]
+[6, 5, 4, 0, 2, 9, 3, 7, 1, 8]
+[9, 1, 7, 3, 6, 0, 5, 8, 2, 4]
+Solving board:
+[6, -1, 1, 5, 7, -1, -1, -1, 3, -1]
+[-1, 9, 7, -1, -1, 2, 1, -1, -1, -1]
+[-1, -1, -1, -1, -1, 0, -1, -1, -1, 1]
+[-1, 9, -1, 0, 7, -1, 3, 5, 4, -1]
+[6, -1, -1, 5, -1, 0, -1, -1, -1, -1]
+Using Model 1
+=======================================================
+FC
+CSP TENNER-M1 solved. CPU Time used = 0.23691299999999949
+CSP TENNER-M1  Assignments = 
+Var--V1,1  =  6     Var--V1,2  =  4     Var--V1,3  =  1     Var--V1,4  =  5     Var--V1,5  =  7     Var--V1,6  =  0     Var--V1,7  =  8     Var--V1,8  =  9     Var--V1,9  =  3     Var--V1,10  =  2     Var--V2,1  =  5     Var--V2,2  =  9     Var--V2,3  =  7     Var--V2,4  =  3     Var--V2,5  =  6     Var--V2,6  =  2     Var--V2,7  =  1     Var--V2,8  =  4     Var--V2,9  =  0     Var--V2,10  =  8     Var--V3,1  =  3     Var--V3,2  =  2     Var--V3,3  =  4     Var--V3,4  =  8     Var--V3,5  =  5     Var--V3,6  =  0     Var--V3,7  =  9     Var--V3,8  =  7     Var--V3,9  =  6     Var--V3,10  =  1     Var--V4,1  =  1     Var--V4,2  =  9     Var--V4,3  =  6     Var--V4,4  =  0     Var--V4,5  =  7     Var--V4,6  =  8     Var--V4,7  =  3     Var--V4,8  =  5     Var--V4,9  =  4     Var--V4,10  =  2     Var--V5,1  =  6     Var--V5,2  =  2     Var--V5,3  =  3     Var--V5,4  =  5     Var--V5,5  =  4     Var--V5,6  =  0     Var--V5,7  =  7     Var--V5,8  =  1     Var--V5,9  =  8     Var--V5,10  =  9     
+bt_search finished
+Search made 2564 variable assignments and pruned 11657 variable values
+Solution
+[6, 4, 1, 5, 7, 0, 8, 9, 3, 2]
+[5, 9, 7, 3, 6, 2, 1, 4, 0, 8]
+[3, 2, 4, 8, 5, 0, 9, 7, 6, 1]
+[1, 9, 6, 0, 7, 8, 3, 5, 4, 2]
+[6, 2, 3, 5, 4, 0, 7, 1, 8, 9]
+Using Model 2
+=======================================================
+GAC
+CSP TENNER-M2 solved. CPU Time used = 14.639335
+CSP TENNER-M2  Assignments = 
+Var--V1,1  =  6     Var--V1,2  =  4     Var--V1,3  =  1     Var--V1,4  =  5     Var--V1,5  =  7     Var--V1,6  =  0     Var--V1,7  =  8     Var--V1,8  =  9     Var--V1,9  =  3     Var--V1,10  =  2     Var--V2,1  =  5     Var--V2,2  =  9     Var--V2,3  =  7     Var--V2,4  =  3     Var--V2,5  =  6     Var--V2,6  =  2     Var--V2,7  =  1     Var--V2,8  =  4     Var--V2,9  =  0     Var--V2,10  =  8     Var--V3,1  =  3     Var--V3,2  =  2     Var--V3,3  =  4     Var--V3,4  =  8     Var--V3,5  =  5     Var--V3,6  =  0     Var--V3,7  =  9     Var--V3,8  =  7     Var--V3,9  =  6     Var--V3,10  =  1     Var--V4,1  =  1     Var--V4,2  =  9     Var--V4,3  =  6     Var--V4,4  =  0     Var--V4,5  =  7     Var--V4,6  =  8     Var--V4,7  =  3     Var--V4,8  =  5     Var--V4,9  =  4     Var--V4,10  =  2     Var--V5,1  =  6     Var--V5,2  =  2     Var--V5,3  =  3     Var--V5,4  =  5     Var--V5,5  =  4     Var--V5,6  =  0     Var--V5,7  =  7     Var--V5,8  =  1     Var--V5,9  =  8     Var--V5,10  =  9     
+bt_search finished
+Search made 82 variable assignments and pruned 896 variable values
+Solution
+[6, 4, 1, 5, 7, 0, 8, 9, 3, 2]
+[5, 9, 7, 3, 6, 2, 1, 4, 0, 8]
+[3, 2, 4, 8, 5, 0, 9, 7, 6, 1]
+[1, 9, 6, 0, 7, 8, 3, 5, 4, 2]
+[6, 2, 3, 5, 4, 0, 7, 1, 8, 9]

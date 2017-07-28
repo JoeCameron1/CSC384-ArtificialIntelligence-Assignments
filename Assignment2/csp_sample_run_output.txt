@@ -1,0 +1,40 @@
+Plain Bactracking on simple CSP
+CSP SimpleEqs solved. CPU Time used = 0.000175000000000005
+CSP SimpleEqs  Assignments = 
+Var--X  =  2     Var--Y  =  1     Var--Z  =  1     Var--W  =  4     
+bt_search finished
+Search made 20 variable assignments and pruned 0 variable values
+=======================================================
+Forward Checking on simple CSP
+CSP SimpleEqs solved. CPU Time used = 0.00013100000000000264
+CSP SimpleEqs  Assignments = 
+Var--X  =  2     Var--Y  =  1     Var--Z  =  1     Var--W  =  4     
+bt_search finished
+Search made 8 variable assignments and pruned 14 variable values
+=======================================================
+GAC on simple CSP
+CSP SimpleEqs solved. CPU Time used = 0.00036399999999999974
+CSP SimpleEqs  Assignments = 
+Var--X  =  2     Var--Y  =  1     Var--Z  =  1     Var--W  =  4     
+bt_search finished
+Search made 4 variable assignments and pruned 9 variable values
+Plain Bactracking on 8-queens
+CSP 8-Queens solved. CPU Time used = 0.012321999999999996
+CSP 8-Queens  Assignments = 
+Var--Q1  =  1     Var--Q2  =  5     Var--Q3  =  8     Var--Q4  =  6     Var--Q5  =  3     Var--Q6  =  7     Var--Q7  =  2     Var--Q8  =  4     
+bt_search finished
+Search made 1092 variable assignments and pruned 0 variable values
+=======================================================
+Forward Checking 8-queens
+CSP 8-Queens solved. CPU Time used = 0.002933999999999999
+CSP 8-Queens  Assignments = 
+Var--Q1  =  1     Var--Q2  =  5     Var--Q3  =  8     Var--Q4  =  6     Var--Q5  =  3     Var--Q6  =  7     Var--Q7  =  2     Var--Q8  =  4     
+bt_search finished
+Search made 78 variable assignments and pruned 295 variable values
+=======================================================
+GAC 8-queens
+CSP 8-Queens solved. CPU Time used = 0.025828000000000004
+CSP 8-Queens  Assignments = 
+Var--Q1  =  1     Var--Q2  =  5     Var--Q3  =  8     Var--Q4  =  6     Var--Q5  =  3     Var--Q6  =  7     Var--Q7  =  2     Var--Q8  =  4     
+bt_search finished
+Search made 20 variable assignments and pruned 235 variable values
