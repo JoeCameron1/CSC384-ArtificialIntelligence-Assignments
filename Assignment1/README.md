@@ -1,4 +1,4 @@
-# Assignment 1 - Sukoban
+# Assignment 1 - Implement a Working Solver for the Puzzle Game Sokoban
 
 The assignment handout is 'A1.pdf' above.
 
