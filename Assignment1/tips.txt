@@ -1,0 +1,9 @@
+1. The first step in developing a good sokoban heuristic is to recognise where all the obstacles are in an given state. You want to store/keep track of where the obstacles are in some way early in your heuristic function.
+
+2. You need to be able to test whether or not a box is in a corner that is not a storage point. The reason for this being that when a box ends up in a corner, it cannot be moved again. Hence, if the box is in a corner and that corner is not a storage point, you should immediately set your heuristic function to unsolvable and move on to the next step in the search tree.
+
+3. In addition to calculating the Manhattan distance between boxes and storage points, you should also calculate the Manhattan distance between boxes and the robot. This is necessary to a good heuristic, because the position of the robot greatly affects the optimal solution to any state.
+
+4. You should only look at the distance between one box and one storage point/one robot at a time. Do not try to calculate distances between multiple items.
+
+5. Make sure to base your heuristic on simple/minimal distance calculations in certain scenarios. Do not add unnecessary and complex computation, such as the Hungarian Algorithm, to your heuristic. This will only add complexity/time to your sokoban solver, meaning even simple puzzles could require a lot of processing time to solve.
