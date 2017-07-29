@@ -46,5 +46,7 @@ You can also see the Pacman agents play real-time. To do this, simply type 'pyth
 * --frameTime Specifies the frame time for each frame in the Pacman visualizer (e.g., --frameTime 0).
 
 An example of a command you might want to run is:
-python pacman.py -p GreedyAgent -l contestClassic -n 100 -k 2 -g DirectionalGhost -q 
+
+* python pacman.py -p GreedyAgent -l contestClassic -n 100 -k 2 -g DirectionalGhost -q
+
 This will run a GreedyAgent over 100 cases on the contestClassic level with 2 DirectionalGhost characters, while supressing the visual output.
